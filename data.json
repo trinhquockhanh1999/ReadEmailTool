@@ -1,0 +1,57 @@
+{
+    "ID" : "1bGdnnBmQvgrdMRuGim4Y0orh4pKLMDK9uG2fUf9DZ0M",
+    "Gmail Scope" : [
+            "https://www.googleapis.com/auth/gmail.modify"
+    ],
+    "Sheet Scope" : [
+        "https://www.googleapis.com/auth/spreadsheets"
+    ],
+    "Range" : "A1:E20",
+    "Title" : [
+        "ACB-Dich vu bao so du tu dong",
+        "Re: ACB-Dich vu bao so du tu dong"
+    ],
+    "Email Labels" : [
+        "UNREAD"
+    ],
+    "Initial Email Number" : 10,
+    "Normal Email Number" : 1,
+    "Data" : {
+        "Date": {
+            "Title" : "Date",
+            "Sheet Name" : "false"
+        },
+
+        "Hour": {
+            "Title" : "Hour",
+            "Sheet Name" : "false"
+        },
+
+        "Acount Number": {
+            "Title" : "Acount Number",
+            "Filter": {
+                "Before" : "ACB respectfully updates your *",
+                "After" : "*"
+            },
+            "Sheet Name" : "true"
+        },
+
+        "Account Balance": {
+            "Title" : "Acount Balance",
+            "Filter": {
+                "Before" : "Updated account balance: *",
+                "After" : "."
+            },
+            "Sheet Name" : "false"
+        },
+
+        "Latest Transaction": {
+            "Title" : "Latest Transaction",
+            "Filter": {
+                "Before" : "Latest transaction: Credit *",
+                "After" : "."
+            },
+            "Sheet Name" : "false"
+        }
+    }
+}
